@@ -12,5 +12,5 @@ class TestCompare(unittest.TestCase):
     def test_compare_1_3_returns_1_is_less_than_3(self):
         self.assertEqual("1 is less than 3", compare(1, 3))
 
-    # def test_compare_1_3_returns_1_is_less_than_3(self):
-    #     self.assertEqual("1 is less than 3", compare(1, 3))
+    def test_compare_1_1_returns_1_is_equal_to_1(self):
+        self.assertEqual("1 is equal to 1", compare(1, 1))
